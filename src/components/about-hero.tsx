@@ -19,7 +19,7 @@ export default function AboutHero() {
               width={100}
               height={100}
               className="h-auto w-full px-0 xl:px-16"
-              alt="hero image"
+              alt="Portrait of Quy Dinh Tran"
               lightColor="#E0FFFF"
               darkColor="#004D4D"
               unoptimized
@@ -31,14 +31,15 @@ export default function AboutHero() {
         <AnimatePresence>
           <FadeUp key="title-greeting" duration={0.6}>
             <h1 className="text-6xl font-bold text-accent sm:text-7xl md:text-6xl lg:text-5xl xl:text-7xl">
-              Hi, I&apos;m Amit Chauhan
+              Hi, I&apos;m Quy Dinh Tran
             </h1>
           </FadeUp>
           <FadeUp key="description-1" duration={0.6} delay={0.2}>
             <p className="mt-8 text-base font-medium text-zinc-900 dark:text-zinc-300 sm:text-lg md:text-lg">
-              I turn vision into reality with code. Whether I&apos;m working on
-              a website or any digital product, I bring my commitment to design
-              excellence and user-centered thinking to every project I work on.
+              I&apos;m a fullstack developer with experience building and
+              maintaining web applications. I work across frontend and backend,
+              from understanding requirements to delivering and improving
+              features.
             </p>
           </FadeUp>
           <FadeUp key="description-2" duration={0.6} delay={0.4}>
@@ -47,8 +48,8 @@ export default function AboutHero() {
               <Link href="/projects" className="underline underline-offset-4">
                 <span className="text-accent">projects</span>
               </Link>{" "}
-              showcasing my expertise in Reactjs, Nextjs, Javascript, Typescript
-              and web development.
+              showcasing my personal work in React, Redux, Angular, and web
+              development.
             </p>
           </FadeUp>
           <FadeRight
@@ -60,14 +61,14 @@ export default function AboutHero() {
             <div className="relative flex w-12 gap-4 overflow-hidden rounded-md">
               <Image
                 className="-z-10 h-full w-full bg-cover bg-no-repeat"
-                alt="Indian flag"
-                src="https://flagcdn.com/in.svg"
+                alt="Vietnamese flag"
+                src="https://flagcdn.com/vn.svg"
                 width={15}
                 height={15}
               />
             </div>
             <span className="text-lg font-medium text-foreground">
-              Mumbai, India
+              Ho Chi Minh City, Viet Nam
             </span>
           </FadeRight>
         </AnimatePresence>

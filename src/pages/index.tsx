@@ -13,18 +13,18 @@ export default function Home() {
   return (
     <>
       <NextSeo
-        title="Amit Chauhan | Software Developer"
-        description="Explore the professional portfolio of Amit Chauhan, a skilled Software Developer with 2 years of hands-on experience. Discover innovative projects, expertise in modern web technologies, and a passion for creating seamless user experiences."
+        title="Quy Dinh Tran | Fullstack Developer"
+        description="Explore the portfolio of Quy Dinh Tran, a fullstack developer based in Ho Chi Minh City, Viet Nam."
         canonical={siteMetadata.siteUrl}
         openGraph={{
           url: siteMetadata.siteUrl,
-          title: "Amit Chauhan - Software Developer",
+          title: "Quy Dinh Tran - Fullstack Developer",
           description:
-            "Dive into the world of web development with Amit Chauhan. Discover a Software Developer with 2 years of expertise, showcasing cutting-edge projects and a commitment to crafting exceptional user interfaces.",
+            "Personal portfolio of Quy Dinh Tran, showcasing fullstack experience, technical skills, and personal projects.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Quy Dinh Tran portfolio",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -37,7 +37,7 @@ export default function Home() {
           {
             property: "keywords",
             content:
-              "React Developer, Software Developer, Frontend Developer, Web Developer, JavaScript, HTML, CSS, Portfolio, UI/UX, React.js, Frontend Development, Web Development, JavaScript Developer, Responsive Design",
+              "Quy Dinh Tran, Fullstack Developer, Java, Spring Boot, NestJS, React, Angular, TypeScript, Portfolio",
           },
         ]}
       />

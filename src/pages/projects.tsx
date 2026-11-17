@@ -8,18 +8,18 @@ export default function Projects() {
   return (
     <>
       <NextSeo
-        title="Projects by Amit Chauhan - Software Developer Portfolio"
-        description="Explore a collection of projects by Amit Chauhan, a seasoned Software Developer. From innovative web applications to responsive interfaces, discover the depth and diversity of my work."
+        title="Personal Projects by Quy Dinh Tran"
+        description="Explore personal projects by Quy Dinh Tran, including a portfolio website and an Angular Pokedex app."
         canonical={`${siteMetadata.siteUrl}/projects`}
         openGraph={{
           url: `${siteMetadata.siteUrl}/projects`,
-          title: "Discover Projects by Amit Chauhan - Software Developer",
+          title: "Personal Projects by Quy Dinh Tran",
           description:
-            "Explore a showcase of projects crafted by Amit Chauhan, a Software Developer. Witness the fusion of creativity and technology in web development.",
+            "A portfolio website and Pokedex app built by fullstack developer Quy Dinh Tran.",
           images: [
             {
               url: `${siteMetadata.siteUrl}${siteMetadata.twitterImage}`,
-              alt: "Amit Chauhan - Portfolio Image",
+              alt: "Quy Dinh Tran portfolio",
             },
           ],
           siteName: siteMetadata.siteName,
@@ -32,7 +32,7 @@ export default function Projects() {
           {
             property: "keywords",
             content:
-              "Projects,Amit Portfolio, Software Developer, React Developer, Frontend Developer, Web Development, JavaScript, HTML, CSS, UI/UX, Web Applications, Responsive Design",
+              "Quy Dinh Tran, personal projects, portfolio website, Angular Pokedex, React, Redux",
           },
         ]}
       />
@@ -53,11 +53,10 @@ export default function Projects() {
           </div>
           <div className="mx-auto mt-16 max-w-5xl text-center text-foreground md:mt-28">
             <span className="text-xl font-bold md:text-2xl">
-              I am currently building new projects and learning backend
-              development to expand my skill set beyond frontend.
+              Personal projects built with curiosity and a focus on learning.
             </span>
             <p className="mt-10 text-base md:text-xl">
-              Visit my github to see some of the latest projects{" "}
+              Visit my GitHub for source code and more projects{" "}
               <a
                 href={`${siteMetadata.github}?tab=repositories`}
                 target="_blank"

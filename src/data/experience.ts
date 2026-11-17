@@ -2,35 +2,47 @@ import { type ExperienceShowcaseListItemProps } from "@/components/experience/ex
 
 export const EXPERIENCE: ExperienceShowcaseListItemProps[] = [
   {
+    title: "Software Engineer",
+    organisation: {
+      name: "NCC+",
+      href: "https://ncc.asia/",
+    },
+    date: "Feb 2025 - May 2026",
+    location: "Viet Nam",
+    description:
+      "Developed and maintained full-stack applications using NestJS, Next.js, and React; owned features from requirements through deployment and mentored interns.",
+  },
+  {
     title: "Software Developer",
     organisation: {
-      name: "Skima",
-      href: "https://skima.ai/",
+      name: "Freelance",
+      href: "https://github.com/quy1099ht",
     },
-    date: "Oct 2023 - Present",
-    location: "Mumbai",
-    description: "Reactjs and Nextjs app development",
+    date: "Jul 2024 - Dec 2024",
+    location: "Viet Nam",
+    description:
+      "Built a comic platform for Virtasia VN, implemented Google OAuth2, and delivered application improvements in collaboration with stakeholders.",
   },
   {
-    title: "Engineering Trainee",
+    title: "AS400 Developer",
     organisation: {
-      name: "Hexaware",
-      href: "https://hexaware.com/",
+      name: "Wanek Furniture",
+      href: "https://www.wanekfurniture.com/",
     },
-    date: "July 2023 - Sep 2023",
-    location: "Remote",
+    date: "Mar 2024 - Jun 2024",
+    location: "Viet Nam",
     description:
-      "Learned to work we monorepo and got to learn application architecture, scalling and build tooling to improve CI/CD of micro services.",
+      "Maintained AS400 systems, analyzed business workflows, and implemented improvements to system reliability.",
   },
   {
-    title: "Frontend Developer Intern",
+    title: "Software Engineer",
     organisation: {
-      name: "Master Infotech",
-      href: "https://masterinfotech.com/",
+      name: "KMS Technology",
+      href: "https://www.kms-technology.com/",
     },
-    date: "Winter - 2022",
-    location: "Remote",
+    date: "Oct 2022 - Dec 2023",
+    location: "Viet Nam",
     description:
-      "Worked on a team responsible for developing new features and updating old codebases to latest technologies. Learned alot about web development and CI/CD development cycle.",
+      "Developed full-stack features across event, logistics, and CV-generation systems using React, Angular, Java, and REST APIs; contributed to Agile delivery and system quality.",
   },
 ];
