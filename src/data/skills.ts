@@ -10,16 +10,18 @@ import {
   SiStorybook,
   SiJasmine,
   SiFirebase,
+  SiMysql,
+  SiTrpc,
 } from "react-icons/si";
 import { type SkillsShowcaseProps } from "@/components/skills/skills-showcase";
 
-// Languages
+// Languages and web foundations
 import HtmlSvg from "@/public/icons/html.svg";
 import CsssSvg from "@/public/icons/css.svg";
 import JavascriptSvg from "@/public/icons/javascript.svg";
 import TypescriptSvg from "@/public/icons/typescript.svg";
 
-// Libraries
+// Frontend
 import ReactjsSvg from "@/public/icons/reactjs.svg";
 import ReduxSvg from "@/public/icons/redux.svg";
 import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
@@ -27,17 +29,16 @@ import TailwindcssSvg from "@/public/icons/tailwindcss.svg";
 // Backend
 import NodejsSvg from "@/public/icons/nodejs.svg";
 
-// Database and ORMS
+// Databases and storage
 import MongoDBSvg from "@/public/icons/mongodb.svg";
 import PostgressSvg from "@/public/icons/postgresql.svg";
 
-// Tools and Tech
-import GitSvg from "@/public/icons/git.svg";
+// DevOps and testing
 import DockerSvg from "@/public/icons/docker.svg";
 
 export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
   {
-    sectionName: "Languages",
+    sectionName: "Languages and Web Foundations",
     skills: [
       {
         name: "HTML",
@@ -59,7 +60,7 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     ],
   },
   {
-    sectionName: "Libraries and Frameworks",
+    sectionName: "Frontend",
     skills: [
       {
         name: "Reactjs",
@@ -70,15 +71,12 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
         icon: SiNextdotjs,
       },
       { name: "Angular", icon: SiAngular },
-      { name: "Spring Boot", icon: SiSpringboot },
-      { name: "Java Play", icon: SiOpenjdk },
-      { name: "NestJS", icon: SiNestjs },
       {
         name: "Redux",
         icon: ReduxSvg,
       },
       {
-        name: "Tailwindcss",
+        name: "Tailwind CSS",
         icon: TailwindcssSvg,
       },
     ],
@@ -87,31 +85,32 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
     sectionName: "Backend",
     skills: [
       {
-        name: "Nodejs",
+        name: "Node.js",
         icon: NodejsSvg,
       },
       {
         name: "Express",
         icon: SiExpress,
       },
+      { name: "NestJS", icon: SiNestjs },
+      { name: "Spring Boot", icon: SiSpringboot },
+      { name: "Java Play Framework", icon: SiOpenjdk },
+      { name: "tRPC", icon: SiTrpc },
     ],
   },
   {
-    sectionName: "Databases and ORMs",
+    sectionName: "Databases and Storage",
     skills: [
       { name: "Microsoft SQL Server", icon: SiMicrosoftsqlserver },
       { name: "PostgreSQL", icon: PostgressSvg },
       { name: "MongoDB", icon: MongoDBSvg },
-      { name: "Firebase", icon: SiFirebase },
+      { name: "MySQL", icon: SiMysql },
+      { name: "Firebase / Firestore", icon: SiFirebase },
     ],
   },
   {
-    sectionName: "Tools and Technologies",
+    sectionName: "DevOps and Testing",
     skills: [
-      {
-        name: "Git",
-        icon: GitSvg,
-      },
       {
         name: "Docker",
         icon: DockerSvg,
@@ -119,7 +118,6 @@ export const SKILLS_DATA: SkillsShowcaseProps["skills"] = [
       { name: "Karma / Jasmine / Marble", icon: SiJasmine },
       { name: "JUnit", icon: SiJunit5 },
       { name: "Storybook", icon: SiStorybook },
-      { name: "Docker", icon: DockerSvg },
     ],
   },
 ];
