@@ -6,7 +6,7 @@ export const siteMetadata = {
   language: "en-us",
   theme: "light",
   siteName: "Quy Dinh Tran portfolio",
-  siteUrl: "https://hopeful-jang-a1e5ce.netlify.app",
+  siteUrl: "https://quy-tran-portforlio.vercel.app",
   siteRepo: "https://github.com/quy1099ht",
   siteLogo: "/favicon.ico",
   image: "/static/homepage.png",
