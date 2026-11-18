@@ -6,7 +6,7 @@ export const siteMetadata = {
   language: "en-us",
   theme: "light",
   siteName: "Quy Dinh Tran portfolio",
-  siteUrl: "https://quy-tran-portforlio.vercel.app",
+  siteUrl: "https://quy-tran-portfolio.vercel.app",
   siteRepo: "https://github.com/quy1099ht",
   siteLogo: "/favicon.ico",
   image: "/static/ogp-home.png",
