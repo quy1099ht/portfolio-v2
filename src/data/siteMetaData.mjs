@@ -17,5 +17,5 @@ export const siteMetadata = {
   twitter: "https://x.com/",
   linkedin: "https://www.linkedin.com/in/quy-dinh-tran-23604b216/",
   locale: "en-US",
-  googleSiteVerification: "",
+  googleSiteVerification: "sjwBmvJK1vrNXsbTTcUKP5gSStMJY1N612DWKfacOVg",
 };
